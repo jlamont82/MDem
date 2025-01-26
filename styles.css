@@ -1,0 +1,153 @@
+@media screen and (min-width: 1200px){
+
+#map, html, body {
+  margin: auto;
+  width: 90vw;
+  height: 60vh;
+}
+
+#panel {
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+  font-family: Arial, sans-serif, serif;
+  font-size: 170%;
+  margin: auto;
+}
+
+#color-palette {
+  clear: both;
+  padding-bottom: 0.2vw;
+}
+
+#select-button, #delete-button, #marker-button, #polygon-button, #rectangle-button, #circle-button, #line-button, #measure-button, #comment-button  {
+  font-size: 0.80vw;
+  font-weight: bold;
+  color: green;
+  cursor: pointer;
+}
+
+.color-button {
+  width: 2vw;
+  height: 2vw;
+  margin: 0.5%;
+  float: left;
+  cursor: pointer;
+}
+
+.buttonImage {
+  width: 2vw;
+}
+
+button {
+  background-color: white;
+
+}
+
+button:hover {
+  background-color: lightgray;
+}
+button:focus {
+  background: lightgray;
+
+}
+
+h1 {
+  font-family: Arial, sans-serif, serif;
+  font-size: 3vw;
+  color: green;
+  position: absolute;
+  margin: auto;
+}
+
+h2 {
+  font-family: Arial, sans-serif, serif;
+  font-size: 1vw;
+  padding-top: 2vw;
+  color: green;
+  position: relative;
+}
+
+input {
+  font-size: 1vw;
+  font-weight: bold;
+  color: green;
+  cursor: pointer;
+}
+}
+
+/*small screen*/
+@media screen and (max-width: 1200px){
+  #map, html, body {
+    margin: auto;
+    width: 90vw;
+    height: 55vh;
+  }
+  
+  #panel {
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    font-family: Arial, sans-serif, serif;
+    font-size: 170%;
+    margin: auto;
+  }
+  
+  #color-palette {
+    clear: both;
+    padding-bottom: 0.2vw;
+  }
+  
+  #select-button, #delete-button, #marker-button, #polygon-button, #rectangle-button, #circle-button, #line-button, #measure-button, #comment-button  {
+    font-size: 0;
+    font-weight: bold;
+    color: green;
+    cursor: pointer;
+  }
+  
+  .color-button {
+    width: 2vw;
+    height: 2vw;
+    margin: 0.5%;
+    float: left;
+    cursor: pointer;
+  }
+  
+  .buttonImage {
+    width: 3vw;
+  }
+  
+  button {
+    background-color: white;
+  
+  }
+  
+  button:hover {
+    background-color: lightgray;
+  }
+  button:focus {
+    background: lightgray;
+  
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif, serif;
+    font-size: 3vw;
+    color: green;
+    position: absolute;
+    margin: auto;
+  }
+  
+  h2 {
+    font-family: Arial, sans-serif, serif;
+    font-size: 1.5vw;
+    padding-top: 2vw;
+    color: green;
+    position: relative;
+  }
+  
+  input {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: green;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Map Drawing Tool</title>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyBapIz1Am0S1f0ieA0Hp7PWKndNGHuv8rI&libraries=drawing,geometry,places&v=weekly"></script>
+</head>
+
+<body>
+  <h1>Map Drawing Tool</h1>
+
+
+
+  <div id="panel">
+    <h2> Land Cover Colours</h2>
+    <div id="color-palette"></div>
+    <div>
+      <br />
+      <h2>Drawing Tools</h2>
+      <div class="btn-group">
+        <button id="select-button"><img class="buttonImage" src="C:\Users\J Lamont\Documents\mapping examples\map tools v5\buttons\select.png" alt="select button">Select an Object</button>
+
+        <button id="delete-button"><img class="buttonImage" src="C:\Users\J Lamont\Documents\mapping examples\map tools v5\buttons\eraser.png" alt="delete button">Delete Selected Item</button>
+
+        <button id="marker-button"><img class="buttonImage" src="C:\Users\J Lamont\Documents\mapping examples\map tools v5\buttons\marker.png" alt="marker button">Add a Marker</button>
+
+        <button id="polygon-button"><img class="buttonImage" src="C:\Users\J Lamont\Documents\mapping examples\map tools v5\buttons\polygon.png" alt="polygon button">Draw a Polygon</button>
+
+        <button id="rectangle-button"><img class="buttonImage" src="C:\Users\J Lamont\Documents\mapping examples\map tools v5\buttons\rectangle.png" alt="rectangle button">Draw a rectangle</button>
+
+        <button id="circle-button"><img class="buttonImage" src="C:\Users\J Lamont\Documents\mapping examples\map tools v5\buttons\circle.png" alt="circle button">Draw a Circle</button>
+
+        <button id="line-button"><img class="buttonImage" src="C:\Users\J Lamont\Documents\mapping examples\map tools v5\buttons\drawLine.png" alt="drawLine button">Draw a Line</button>
+
+        <button id="measure-button"><img class="buttonImage" src="C:\Users\J Lamont\Documents\mapping examples\map tools v5\buttons\ruler.png" alt="measure button">Measure Area</button>
+
+        <button id="comment-button"><img class="buttonImage" src="C:\Users\J Lamont\Documents\mapping examples\map tools v5\buttons\notes.png" alt="comment button">Add Comment</button>
+
+      </div>
+    </div>
+  </div>
+
+  <input id="pac-input" class="controls" type="text" placeholder="Search Box" />
+
+  <div id="map">
+    <script src="app.js"></script>
+  </div>
+
+
+</body>
+<footer>
+
+</html>
